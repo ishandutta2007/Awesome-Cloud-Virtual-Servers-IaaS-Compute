@@ -27,7 +27,7 @@
 
 ### 📌 Overview & SEO Summary 🔍
 
-Welcome to the ultimate curated directory of **cloud virtual server providers**, **open-source hypervisor platforms**, **microVM runtimes**, and **self-hosted IaaS frameworks**. Whether you are evaluating enterprise-grade commercial platforms (such as *Microsoft Azure*, *Amazon EC2*, *Google Compute Engine*, and *Oracle Cloud*), or building self-hosted private clouds using open-source virtualization stacks (such as *Kubernetes*, *Firecracker*, *QEMU*, *Multipass*, *OpenStack*, and *Proxmox VE*), this repository provides comprehensive pricing, free tier limits, company valuations, and star counts to guide your cloud infrastructure choices. 🚀
+Welcome to the ultimate curated directory of **cloud virtual server providers**, **open-source hypervisor platforms**, **microVM runtimes**, and **self-hosted IaaS frameworks**. Whether you are evaluating enterprise-grade commercial platforms (such as *Microsoft Azure*, *Amazon EC2*, *Google Compute Engine*, and *Oracle Cloud*), or building self-hosted private clouds using open-source virtualization stacks (such as *Kubernetes*, *Firecracker*, *QEMU*, *Multipass*, *OpenStack*, and *Proxmox VE*), this repository provides comprehensive pricing, free tier limits, company valuations, and Stars_Counts to guide your cloud infrastructure choices. 🚀
 
 **Key Market Context:** 📊
 - **Hyperscaler Concentration vs Regional Value:** The IaaS compute sector is highly concentrated among the top 3 hyperscalers (Microsoft, Amazon, Alphabet), yet independent and regional clouds (Hetzner, DigitalOcean, Scaleway) offer 40–70% cost savings for standard virtual server instances. 💰
@@ -72,7 +72,7 @@ Welcome to the ultimate curated directory of **cloud virtual server providers**,
 
 ## 🔓 Open-Source GitHub Projects 📦
 
-*Sorted by GitHub Star Count (Descending)* 🌟
+*Sorted by GitHub Stars_Count (Descending)* 🌟
 
 - **[Kubernetes](https://github.com/kubernetes/kubernetes)** [![Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
   **Production-Grade Container Scheduling & Infrastructure Orchestration**, Apache-2.0 licensed. **128,300+ Stars**. The foundation of modern cloud-native infrastructure. Enables virtual machine management alongside containerized workloads via extension operators like KubeVirt. ☸️
@@ -133,7 +133,7 @@ Contributions are welcome! Follow these simple steps to add or update IaaS compu
 
 1. 🍴 **Fork** the repository.
 2. 📝 **Add/edit** entries in `README.md` maintaining table/list structure and formatting.
-3. 🔗 Include exact project title, official website/GitHub link, exact star count link, license, and brief description.
+3. 🔗 Include exact project title, official website/GitHub link, exact Stars_Count link, license, and brief description.
 4. 🚀 Submit a **Pull Request** with a descriptive summary of your changes.
 
 ---
