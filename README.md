@@ -1,295 +1,168 @@
-# Awesome-Cloud-Virtual-Servers-IaaS-Compute
-
 # Awesome-Cloud-Virtual-Servers-IaaS-Compute 🖥️ ☁️
 
-
-
 <p align="center">
-
   <img src="assets/banner.svg" alt="Awesome Cloud Virtual Servers IaaS Compute Banner" width="100%">
-
 </p>
-
-
 
 <p align="center">
-
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
-
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Virtual-Servers-IaaS-Compute"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Virtual-Servers-IaaS-Compute?style=social" alt="GitHub_Stars"/></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Virtual-Servers-IaaS-Compute/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Virtual-Servers-IaaS-Compute?style=social" alt="GitHub Forks"/></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Virtual-Servers-IaaS-Compute/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Cloud-Virtual-Servers-IaaS-Compute?color=blue" alt="License"/></a>
-
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
-
 </p>
-
-
 
 ---
 
+## 🌟 Top Cloud Virtual Servers (IaaS Compute) Ecosystem ⚡
 
+**Curated Directory of Commercial IaaS Compute Platforms & Open-Source Virtualization Stacks** 🖥️  
 
-## 🌟 Top Cloud Virtual Servers (IaaS Compute) Ecosystem
-
-
-
-**Curated List of Commercial IaaS Compute Platforms & Open-Source Virtualization Stacks**  
-
-*Focused on Virtual Machine Provisioning, Hypervisor Platforms, Self-Hosted Cloud Infrastructure, Bare-Metal Automation & Instance Management*
-
-
+*Focused on Virtual Machine Provisioning, MicroVM Hypervisors, Self-Hosted Cloud Infrastructure, Bare-Metal Automation & Instance Management* ☁️
 
 **Last updated: October 2026** 📅
 
-
-
 ---
 
+### 📌 Overview & SEO Summary 🔍
 
+Welcome to the ultimate curated directory of **cloud virtual server providers**, **open-source hypervisor platforms**, **microVM runtimes**, and **self-hosted IaaS frameworks**. Whether you are evaluating enterprise-grade commercial platforms (such as *Microsoft Azure*, *Amazon EC2*, *Google Compute Engine*, and *Oracle Cloud*), or building self-hosted private clouds using open-source virtualization stacks (such as *Kubernetes*, *Firecracker*, *QEMU*, *Multipass*, *OpenStack*, and *Proxmox VE*), this repository provides comprehensive pricing, free tier limits, company valuations, and star counts to guide your cloud infrastructure choices. 🚀
 
-### 📌 Overview & SEO Summary
-
-Welcome to the ultimate curated directory of **cloud virtual server providers**, **open-source hypervisor platforms**, and **self-hosted IaaS frameworks**. Whether you are looking for enterprise-grade commercial solutions (such as *Amazon EC2*, *Google Compute Engine*, and *Azure Virtual Machines*), or self-hostable open-source alternatives (like *OpenStack*, *Proxmox VE*, and *Apache CloudStack*), this list covers category leaders, virtualization stacks, and privacy-respecting compute infrastructure.
-
-
-
-**Key Market Context:**
-
-- **Hyperscalers dominate enterprise IaaS** — AWS, Azure, and GCP account for the majority of global cloud compute spend, but **regional providers like Hetzner, Scaleway, and OVHcloud offer 40–70% cost savings** for equivalent compute.
-
-- **OpenStack remains the leading open-source IaaS platform**, powering **75+ public cloud providers** and thousands of private clouds worldwide.
-
-- **Proxmox VE** is the most widely adopted open-source hypervisor for on-premises virtualization, with **1M+ installations**.
-
-
+**Key Market Context:** 📊
+- **Hyperscaler Concentration vs Regional Value:** The IaaS compute sector is highly concentrated among the top 3 hyperscalers (Microsoft, Amazon, Alphabet), yet independent and regional clouds (Hetzner, DigitalOcean, Scaleway) offer 40–70% cost savings for standard virtual server instances. 💰
+- **Serverless & MicroVM Revolution:** MicroVM runtimes like AWS Firecracker and Cloud Hypervisor enable sub-second lightweight virtualization for multi-tenant serverless compute platforms. ⚡
+- **Open-Source IaaS Dominance:** Kubernetes (via KubeVirt) and OpenStack power enterprise containerized and virtualized workloads, while Proxmox VE leads on-premises virtual machine hosting with over 1M+ installations. 🛠️
 
 ---
-
-
 
 ## 📑 Table of Contents
 
 - [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
-
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
 - [🛠️ How to Contribute](#%EF%B8%8F-how-to-contribute)
-
 - [📊 Star History](#-star-history)
-
 - [🤝 Support & Sponsorship](#-support--sponsorship)
-
 - [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-
-
 ---
 
+## 🏢 SaaS / Commercial Platforms 📈
 
+### 🌐 Market Size & Industry Concentration
 
-## 🏢 SaaS / Commercial Platforms
+> **Market Insights:** The global Infrastructure-as-a-Service (IaaS) compute market is estimated at **~$180 Billion+** and is **highly concentrated** (a "winner-take-most" sector). The top 3 hyperscalers (Microsoft Azure, Amazon Web Services, and Google Cloud Platform) command over 65% of global market share, while regional and specialized cloud providers compete on developer experience, predictable pricing, and data sovereignty compliance. 📊
 
+*Sorted by Company Size / Market Capitalization / Valuation (Descending)* 🔽
 
-
-The cloud virtual server market spans **hyperscale providers** (AWS, Azure, GCP) that offer **hundreds of instance types, global regions, and deep ecosystem integration**, and **regional/independent providers** (Hetzner, DigitalOcean, Vultr, Linode) that offer **simpler pricing, predictable costs, and developer-friendly APIs**. **Amazon EC2** offers **750 hours of t2.micro/t3.micro free for 12 months** . **Google Compute Engine** provides **e2-micro free tier in select regions** . **Azure Virtual Machines** offers **750 hours of B1s free for 12 months** . **Hetzner Cloud** starts at **€3.29/month for CX22 (2 vCPU, 4 GB RAM)** — among the cheapest in the market . **DigitalOcean Droplets** start at **$4/month for 512 MB RAM** . **Vultr** offers **high-frequency compute from $6/month** . **Linode (Akamai)** starts at **$5/month for 1 GB RAM** . **Scaleway** starts at **€0.0025/hour for DEV1-S** . **OVHcloud** offers **VPS from $3.50/month** . **Oracle Cloud** provides **Always Free ARM Ampere A1 (4 OCPU, 24 GB RAM)** — the most generous free tier in the industry .
-
-
-
-| SaaS / Commercial Platform | Company / Owner | Valuation / Market Cap | Standard Edition Starting Price | Free Tier / Free Trial Limits | Description |
-
+| SaaS / Commercial Platform | Company / Owner | Valuation / Market Cap 🏢 | Standard Edition Starting Price 💰 | Free Tier / Free Trial Limits 🎁 | Description 📝 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-
-| **[Amazon EC2](https://aws.amazon.com/ec2/)** ☁️ | Amazon | ~$2.0 Trillion | **On-Demand: ~$0.0116/hour (t3.micro)**; Reserved/Savings Plans for 40–70% savings  | **Free tier: 750 hours t2.micro/t3.micro/month for 12 months** | **AWS-native virtual servers** — **Broadest instance selection** (400+ types), **global regions**, and **deep ecosystem integration**. **Spot Instances** offer up to **90% discounts**. **Graviton ARM** instances deliver **40% better price-performance** vs x86. |
-
-| **[Google Compute Engine](https://cloud.google.com/compute)** 🌐 | Google (Alphabet) | ~$2.0 Trillion | **On-Demand: ~$0.0084/hour (e2-micro)**; **Spot VMs up to 91% off**; **CUDs up to 57% off**  | **Free tier: e2-micro in select regions (us-west1, us-central1, us-east1)** | **GCP-native virtual servers** — **Custom machine types** for precise CPU/memory ratios. **Live migration** for zero-downtime maintenance. **Sole-tenant nodes** for compliance. **Spot VMs** with 91% discount. |
-
-| **[Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/)** 🔷 | Microsoft | ~$3.90 Trillion | **On-Demand: ~$0.0104/hour (B1s)**; **Reserved Instances up to 72% off**  | **Free tier: 750 hours B1s/month for 12 months** | **Azure-native virtual machines** — **Windows Server and Linux** support. **Spot VMs** for interruptible workloads. **Azure Hybrid Benefit** for Windows Server licensing. **Dedicated hosts** for compliance. |
-
-| **[DigitalOcean Droplets](https://www.digitalocean.com/)** 🌊 | DigitalOcean | ~$3 Billion | **$4/month** (512 MB RAM, 1 vCPU)  | **$200 free credit for 60 days** for new accounts  | **Developer-friendly cloud** — **Simple pricing** with predictable costs. **1-click apps** for WordPress, Docker, and more. **Managed databases and Kubernetes**. **The easiest cloud for beginners**. |
-
-| **[Linode by Akamai](https://www.linode.com/)** 🔵 | Akamai | ~$15 Billion | **$5/month** (1 GB RAM, 1 vCPU)  | **$100 free credit for 60 days**  | **Akamai-owned cloud** — **Simple, predictable pricing**. **Global data centers**. **Now integrated with Akamai's edge network** for CDN and security. **Excellent documentation and support**. |
-
-| **[Vultr Cloud Compute](https://www.vultr.com/)** 🟣 | Vultr | Private | **$6/month** (1 GB RAM, 1 vCPU, high-frequency)  | **$100–$300 free credit** (promotional)  | **High-performance cloud** — **Bare metal, cloud compute, and optimized instances**. **32 global locations**. **High-frequency compute** for CPU-intensive workloads. |
-
-| **[Hetzner Cloud](https://www.hetzner.com/cloud)** 🇩🇪 | Hetzner Online | Private | **€3.29/month** (CX22: 2 vCPU, 4 GB RAM)  | **€20 free credit** for new accounts  | **German-engineered cloud** — **Best price-performance in the market**. **EU and US data centers**. **Dedicated vCPU options**. **Simple API and Terraform provider**. **The budget-conscious choice for European workloads**. |
-
-| **[Scaleway Elements](https://www.scaleway.com/)** 🇫🇷 | Scaleway (Iliad Group) | ~$10 Billion (Iliad) | **€0.0025/hour** (DEV1-S: 2 vCPU, 2 GB RAM)  | **Free tier: 1 instance for 1 month**  | **French cloud provider** — **GDPR-compliant EU hosting**. **Bare metal, GPU, and ARM instances**. **Elastic Metal** for dedicated resources. **Strong European data sovereignty**. |
-
-| **[OVHcloud Virtual Servers](https://www.ovhcloud.com/)** 🇫🇷 | OVHcloud | ~$5 Billion (Public) | **VPS from $3.50/month**  | **No free tier**; **30-day money-back guarantee**  | **European cloud leader** — **VPS, dedicated servers, and public cloud**. **Global data centers**. **GDPR-compliant**. **Competitive pricing with EU data residency**. |
-
-| **[Oracle Cloud Compute](https://www.oracle.com/cloud/compute/)** 🔴 | Oracle | ~$300 Billion | **On-Demand: ~$0.0075/hour (VM.Standard.E4.Flex)** | **Always Free: 4 OCPU ARM Ampere A1 + 24 GB RAM**  | **Oracle-native cloud** — **The most generous free tier in the industry** . **Ampere ARM instances** with excellent price-performance. **Always Free** tier includes **2 AMD VMs + 4 ARM OCPUs**. **Fast networking** (100 Gbps). |
-
-
+| **[Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/)** 🔷 | Microsoft | ~$3.90 Trillion | **$0.0104/hour** ($7.59/month for B1s 1 vCPU, 1 GB RAM) | **750 hours B1s VM/month for 12 months** + **$200 credit (30 days)** | **Enterprise cloud leader** — Windows & Linux VMs, Azure Hybrid Benefit, Spot instances (up to 90% discount), and seamless Active Directory integration. 🖥️ |
+| **[Amazon EC2](https://aws.amazon.com/ec2/)** ☁️ | Amazon | ~$2.00 Trillion | **$0.0116/hour** ($8.47/month for t3.micro 2 vCPU, 1 GB RAM) | **750 hours t2.micro/t3.micro per month for 12 months** | **Industry-standard IaaS** — Over 500+ instance types, custom Graviton ARM chips (40% price-performance boost), and global availability zones. 🌐 |
+| **[Google Compute Engine](https://cloud.google.com/compute)** 🌐 | Alphabet (Google) | ~$2.00 Trillion | **$0.0084/hour** ($6.13/month for e2-micro 2 vCPU, 1 GB RAM) | **1 Always Free e2-micro instance (us-west1, us-central1, us-east1)** + **$300 credit (90 days)** | **Hyperscale compute platform** — Custom VM sizing, live migration without rebooting, and high-performance Spot VMs (up to 91% discount). ⚡ |
+| **[Oracle Cloud Compute](https://www.oracle.com/cloud/compute/)** 🔴 | Oracle | ~$300 Billion | **$0.0075/hour** ($5.47/month for VM.Standard.E4.Flex) | **Always Free: 4 OCPU ARM Ampere A1 + 24 GB RAM** (or 2 AMD x86 VMs) | **Most generous free cloud tier** — High-speed 100Gbps networking, enterprise Ampere ARM instances, and predictable pricing. 🚀 |
+| **[Linode by Akamai](https://www.linode.com/)** 🔵 | Akamai Technologies | ~$15 Billion | **$5.00/month** (Nanode 1 GB RAM, 1 vCPU, 25 GB SSD) | **$100 free credit valid for 60 days** for new accounts | **Edge-integrated developer cloud** — Simple transparent pricing, global locations, integrated with Akamai CDN and security edge infrastructure. 🛡️ |
+| **[Scaleway Elements](https://www.scaleway.com/)** 🇫🇷 | Iliad Group | ~$10 Billion | **€0.0025/hour** (~€1.80/month for DEV1-S 2 vCPU, 2 GB RAM) | **750 hours/month free trial on select Stardust instances** for new signups | **European data sovereignty leader** — High-density compute, bare-metal servers, Apple Silicon M1 instances, and strict GDPR compliance. 🇪🇺 |
+| **[OVHcloud Virtual Servers](https://www.ovhcloud.com/)** 🇫🇷 | OVHcloud | ~$5 Billion | **$3.50/month** (VPS Starter 1 vCPU, 2 GB RAM, 20 GB SSD) | **No free tier; 30-day money-back guarantee** + **$200 cloud credit (30 days)** | **European cloud giant** — Unmetered bandwidth, anti-DDoS protection included by default, and cost-effective dedicated/VPS compute options. 🔒 |
+| **[DigitalOcean Droplets](https://www.digitalocean.com/)** 🌊 | DigitalOcean | ~$3 Billion | **$4.00/month** (Basic Droplet 512 MB RAM, 1 vCPU, 10 GB SSD) | **$200 free credit valid for 60 days** for new user signups | **Developer-centric cloud** — 1-Click application deployments, managed Kubernetes, simple cloud APIs, and developer-friendly documentation. 👨‍💻 |
+| **[Vultr Cloud Compute](https://www.vultr.com/)** 🟣 | Vultr (Constant) | Private (~$1 Billion) | **$2.50/month** (IPv6-only 512 MB RAM) / **$6.00/month** (High Frequency 1 GB) | **$100 to $300 free credit valid for 30 days** via promo links | **Global high-frequency cloud** — 32+ global data centers, NVMe high-frequency compute, GPU instances, and bare metal hosting. ⚡ |
+| **[Hetzner Cloud](https://www.hetzner.com/cloud)** 🇩🇪 | Hetzner Online | Private (~$500 Million) | **€3.29/month** (~$3.60/month for CX22 2 vCPU, 4 GB RAM) | **€20 free credit valid for 30 days** via developer referral | **Best price-to-performance ratio** — Unbeatable European & US cloud server pricing, dedicated vCPU server options, and fast NVMe storage. 💶 |
 
 ---
 
+## 🔓 Open-Source GitHub Projects 📦
 
+*Sorted by GitHub Star Count (Descending)* 🌟
 
-## 🔓 Open-Source GitHub Projects
+- **[Kubernetes](https://github.com/kubernetes/kubernetes)** [![Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
+  **Production-Grade Container Scheduling & Infrastructure Orchestration**, Apache-2.0 licensed. **128,300+ Stars**. The foundation of modern cloud-native infrastructure. Enables virtual machine management alongside containerized workloads via extension operators like KubeVirt. ☸️
 
+- **[Firecracker](https://github.com/firecracker-microvm/firecracker)** [![Stars](https://img.shields.io/github/stars/firecracker-microvm/firecracker?style=social&color=white)](https://github.com/firecracker-microvm/firecracker/stargazers)  
+  **Secure and Fast MicroVMs for Serverless Computing**, Apache-2.0 licensed. **36,900+ Stars**. Developed by AWS to power AWS Lambda and Fargate. Minimal overhead, sub-10ms boot times, and memory footprint of under 5MB per microVM. 🔥
 
-
-*Sorted by GitHub_Stars_Count (Descending)* 🌟
-
-
-
-- **[OpenStack](https://github.com/openstack/openstack)** [![Stars](https://img.shields.io/github/stars/openstack/openstack?style=social&color=white)](https://github.com/openstack/openstack/stargazers)  
-
-  **The leading open-source cloud infrastructure platform**, Apache-2.0 licensed. **The most widely deployed open-source IaaS platform** — powers **75+ public cloud providers** and thousands of private clouds . **Nova** for compute (VM provisioning), **Neutron** for networking, **Cinder** for block storage, **Keystone** for identity, **Glance** for images, and **Horizon** for dashboard . **Supports KVM, Xen, VMware, and Hyper-V** hypervisors . **The foundation for Rackspace Cloud, OVH, and many regional providers** . **Deployment via Kolla-Ansible, OpenStack-Ansible, or TripleO** . **The definitive open-source IaaS platform** — enterprise-grade at scale . 🏗️
-
-
-
-- **[Proxmox VE](https://github.com/proxmox/pve-manager)** [![Stars](https://img.shields.io/github/stars/proxmox/pve-manager?style=social&color=white)](https://github.com/proxmox/pve-manager/stargazers)  
-
-  **Open-source virtualization platform**, AGPL-3.0 licensed. **The most widely adopted open-source hypervisor for on-premises virtualization** — **1M+ installations** . **Combines KVM (full virtualization) and LXC (containers)** in a single platform . **Web-based management interface** with **no additional licensing costs** . **Built-in backup, HA clustering, and live migration** . **Ceph, ZFS, and CIFS/NFS storage support** . **The easiest entry point to open-source IaaS** — deploy in minutes, scale to hundreds of nodes . 🎯
-
-
-
-- **[Apache CloudStack](https://github.com/apache/cloudstack)** [![Stars](https://img.shields.io/github/stars/apache/cloudstack?style=social&color=white)](https://github.com/apache/cloudstack/stargazers)  
-
-  **Open-source cloud computing platform for IaaS**, Apache-2.0 licensed. **Turnkey IaaS platform** for public and private clouds . **Supports KVM, XenServer, VMware, and Hyper-V** hypervisors . **Multi-tenancy, VLAN isolation, and self-service portals** . **Used by cloud providers and enterprises worldwide** — simpler to deploy and operate than OpenStack . **The most production-proven open-source IaaS platform after OpenStack** . ☁️
-
-
-
-- **[Incus](https://github.com/lxc/incus)** [![Stars](https://img.shields.io/github/stars/lxc/incus?style=social&color=white)](https://github.com/lxc/incus/stargazers)  
-
-  **Modern system container and VM manager**, Apache-2.0 licensed. **The community fork of LXD** after Canonical's license change . **Manages both system containers (LXC) and virtual machines (QEMU)** from a single interface . **REST API, clustering, and live migration** . **Storage and network management** built-in . **The most modern open-source virtualization manager** — simpler than OpenStack, more capable than Proxmox for container workloads . 🐧
-
-
-
-- **[oVirt](https://github.com/oVirt/ovirt-engine)** [![Stars](https://img.shields.io/github/stars/oVirt/ovirt-engine?style=social&color=white)](https://github.com/oVirt/ovirt-engine/stargazers)  
-
-  **Open-source virtualization management platform**, Apache-2.0 licensed. **Built on KVM and libvirt** — **enterprise-grade virtualization management** . **Web-based admin and user portals** . **Live migration, HA, and scheduling policies** . **Storage management (NFS, iSCSI, FC, GlusterFS)** . **Used by Red Hat Virtualization (RHV) as upstream** . **The enterprise-grade open-source alternative to VMware vSphere** . 🏢
-
-
-
-- **[XCP-ng](https://github.com/xcp-ng/xcp)** [![Stars](https://img.shields.io/github/stars/xcp-ng/xcp?style=social&color=white)](https://github.com/xcp-ng/xcp/stargazers)  
-
-  **Open-source hypervisor platform**, GPL-2.0 licensed. **The community fork of XenServer** after Citrix's licensing changes . **Xen-based hypervisor** for enterprise virtualization . **Xen Orchestra** for web management . **Live migration, snapshots, and resource pools** . **Used by cloud providers and enterprises** seeking a Xen-based open-source platform . 🛡️
-
-
-
-- **[OpenNebula](https://github.com/OpenNebula/one)** [![Stars](https://img.shields.io/github/stars/OpenNebula/one?style=social&color=white)](https://github.com/OpenNebula/one/stargazers)  
-
-  **Open-source cloud management platform**, Apache-2.0 licensed. **Simpler than OpenStack** — focused on **private, hybrid, and edge clouds** . **Supports KVM, VMware, and LXD** hypervisors . **Multi-tenancy, federation, and marketplace** . **Used by enterprises and research institutions** . **The most approachable open-source cloud management platform** . 🌐
-
-
-
-- **[Terraform Provider for OpenStack](https://github.com/terraform-provider-openstack/terraform-provider-openstack)** [![Stars](https://img.shields.io/github/stars/terraform-provider-openstack/terraform-provider-openstack?style=social&color=white)](https://github.com/terraform-provider-openstack/terraform-provider-openstack/stargazers)  
-
-  **Terraform provider for OpenStack**, MPL-2.0 licensed. **Infrastructure-as-code for OpenStack** . **Manage instances, networks, volumes, and security groups** . **The standard way to automate OpenStack provisioning** . 🔧
-
-
-
-- **[terraform-provider-proxmox](https://github.com/Telmate/terraform-provider-proxmox)** [![Stars](https://img.shields.io/github/stars/Telmate/terraform-provider-proxmox?style=social&color=white)](https://github.com/Telmate/terraform-provider-proxmox/stargazers)  
-
-  **Terraform provider for Proxmox VE**, MPL-2.0 licensed. **Infrastructure-as-code for Proxmox** . **Manage VMs, containers, and storage** . **The standard way to automate Proxmox provisioning** . 🎛️
-
-
-
-- **[Cloud-init](https://github.com/canonical/cloud-init)** [![Stars](https://img.shields.io/github/stars/canonical/cloud-init?style=social&color=white)](https://github.com/canonical/cloud-init/stargazers)  
-
-  **The de facto standard for early initialization of cloud instances**, GPL-3.0 / Apache-2.0 licensed. **Used by every major cloud provider** — AWS, Azure, GCP, and OpenStack . **Configures instances on first boot** — networking, users, SSH keys, packages, and custom scripts . **The foundational tool for cloud instance automation** . ⚡
-
-
+- **[Vagrant](https://github.com/hashicorp/vagrant)** [![Stars](https://img.shields.io/github/stars/hashicorp/vagrant?style=social&color=white)](https://github.com/hashicorp/vagrant/stargazers)  
+  **Development Environment Provisioning & Portable VM Automation**, Business Source License / MIT. **27,200+ Stars**. HashiCorp's tool for building and managing virtualized development environments reproducibly across VirtualBox, VMware, and Hyper-V. 📦
 
 - **[QEMU](https://github.com/qemu/qemu)** [![Stars](https://img.shields.io/github/stars/qemu/qemu?style=social&color=white)](https://github.com/qemu/qemu/stargazers)  
+  **Generic and Open Source Machine Emulator and Virtualizer**, GPL-2.0 licensed. **13,800+ Stars**. The hardware emulation engine behind KVM and Linux virtualization. Supports full system emulation and near-native speed performance via hardware acceleration. 🖥️
 
-  **Open-source machine emulator and virtualizer**, GPL-2.0 licensed. **The foundation for most open-source virtualization** — KVM uses QEMU for device emulation . **Supports full system emulation and user-mode emulation** . **The most flexible open-source hypervisor** . 🖥️
+- **[Multipass](https://github.com/canonical/multipass)** [![Stars](https://img.shields.io/github/stars/canonical/multipass?style=social&color=white)](https://github.com/canonical/multipass/stargazers)  
+  **Orchestrate Ubuntu instances in a single command**, GPL-3.0 licensed. **9,200+ Stars**. Developed by Canonical to launch lightweight Ubuntu VMs instantly on Linux, macOS, and Windows with cloud-init configuration support. 🚀
 
+- **[KubeVirt](https://github.com/kubevirt/kubevirt)** [![Stars](https://img.shields.io/github/stars/kubevirt/kubevirt?style=social&color=white)](https://github.com/kubevirt/kubevirt/stargazers)  
+  **Kubernetes Virtualization API and Runtime**, Apache-2.0 licensed. **7,100+ Stars**. CNRS/CNCF project that allows running traditional virtual machine workloads natively inside Kubernetes clusters side-by-side with containers. 🔌
 
+- **[Incus](https://github.com/lxc/incus)** [![Stars](https://img.shields.io/github/stars/lxc/incus?style=social&color=white)](https://github.com/lxc/incus/stargazers)  
+  **Powerful System Container and Virtual Machine Manager**, Apache-2.0 licensed. **6,300+ Stars**. Community-driven fork of LXD supported by LinuxContainers. Provides unified management of system containers (LXC) and full QEMU virtual machines. 🐧
 
-- **[libvirt](https://github.com/libvirt/libvirt)** [![Stars](https://img.shields.io/github/stars/libvirt/libvirt?style=social&color=white)](https://github.com/libvirt/libvirt/stargazers)  
+- **[Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor)** [![Stars](https://img.shields.io/github/stars/cloud-hypervisor/cloud-hypervisor?style=social&color=white)](https://github.com/cloud-hypervisor/cloud-hypervisor/stargazers)  
+  **Open Source Virtual Machine Monitor written in Rust**, Apache-2.0 / BSD-3-Clause. **6,300+ Stars**. High-performance microVM hypervisor focused on modern cloud workloads, KVM/MOKS integration, and security. ⚙️
 
-  **Virtualization management API**, LGPL-2.1 licensed. **The abstraction layer for KVM, Xen, QEMU, LXC, and more** . **Used by OpenStack Nova, oVirt, Proxmox, and most open-source virtualization platforms** . **The foundational API for open-source IaaS** . 🔌
+- **[OpenStack](https://github.com/openstack/openstack)** [![Stars](https://img.shields.io/github/stars/openstack/openstack?style=social&color=white)](https://github.com/openstack/openstack/stargazers)  
+  **Open Source Infrastructure-as-a-Service Cloud Platform**, Apache-2.0 licensed. **6,000+ Stars**. The world's leading open-source IaaS stack powering 75+ public cloud datacenters. Includes Nova (Compute), Neutron (Network), Cinder (Storage), and Keystone (Identity). 🏗️
 
+- **[LXD](https://github.com/canonical/lxd)** [![Stars](https://img.shields.io/github/stars/canonical/lxd?style=social&color=white)](https://github.com/canonical/lxd/stargazers)  
+  **System Container and Virtual Machine Manager by Canonical**, AGPL-3.0 licensed. **4,800+ Stars**. Manages system containers and VMs with high density, fast execution, and comprehensive REST APIs. 📦
 
+- **[Cloud-init](https://github.com/canonical/cloud-init)** [![Stars](https://img.shields.io/github/stars/canonical/cloud-init?style=social&color=white)](https://github.com/canonical/cloud-init/stargazers)  
+  **Industry standard for cross-platform cloud instance initialization**, GPL-3.0 / Apache-2.0 licensed. **3,800+ Stars**. Handles early boot initialization (network setup, SSH keys, package installation) across AWS, Azure, GCP, and OpenStack VMs. ⚡
+
+- **[Apache CloudStack](https://github.com/apache/cloudstack)** [![Stars](https://img.shields.io/github/stars/apache/cloudstack?style=social&color=white)](https://github.com/apache/cloudstack/stargazers)  
+  **Turnkey Open-Source Cloud Computing Software**, Apache-2.0 licensed. **3,100+ Stars**. Enterprise-ready multi-tenant IaaS management platform supporting KVM, VMware vSphere, and XenServer hypervisors. ☁️
+
+- **[Terraform Proxmox Provider](https://github.com/Telmate/terraform-provider-proxmox)** [![Stars](https://img.shields.io/github/stars/Telmate/terraform-provider-proxmox?style=social&color=white)](https://github.com/Telmate/terraform-provider-proxmox/stargazers)  
+  **Infrastructure-as-Code Automation for Proxmox VE**, MPL-2.0 licensed. **3,000+ Stars**. Declaratively provision, configure, and manage Proxmox QEMU virtual machines and LXC containers via HashiCorp Terraform. 🎛️
+
+- **[OpenNebula](https://github.com/OpenNebula/one)** [![Stars](https://img.shields.io/github/stars/OpenNebula/one?style=social&color=white)](https://github.com/OpenNebula/one/stargazers)  
+  **Simple, Agile Open-Source Cloud & Edge Management Platform**, Apache-2.0 licensed. **1,700+ Stars**. Lightweight IaaS solution designed for private cloud, hybrid cloud, and distributed edge compute infrastructures. 🌐
+
+- **[XCP-ng](https://github.com/xcp-ng/xcp)** [![Stars](https://img.shields.io/github/stars/xcp-ng/xcp?style=social&color=white)](https://github.com/xcp-ng/xcp/stargazers)  
+  **Turnkey Open-Source Hypervisor based on Xen**, GPL-2.0 licensed. **1,600+ Stars**. Enterprise-grade Xen-based hypervisor platform created as an open alternative to Citrix Hypervisor / XenServer. 🛡️
+
+- **[oVirt Engine](https://github.com/oVirt/ovirt-engine)** [![Stars](https://img.shields.io/github/stars/oVirt/ovirt-engine?style=social&color=white)](https://github.com/oVirt/ovirt-engine/stargazers)  
+  **KVM Virtualization Management Platform**, Apache-2.0 licensed. **610+ Stars**. Enterprise virtualization stack providing centralized web-based administration for KVM hosts, storage pools, and virtual networks. 🏢
+
+- **[Proxmox VE Manager Mirror](https://github.com/proxmox/pve-manager)** [![Stars](https://img.shields.io/github/stars/proxmox/pve-manager?style=social&color=white)](https://github.com/proxmox/pve-manager/stargazers)  
+  **Open-Source Virtualization Management Platform**, AGPL-3.0 licensed. **100+ Stars (GitHub Mirror)**. Over 1,000,000+ deployments globally. Combines KVM virtualization and LXC containers with built-in Web GUI, clustering, and storage management. 🎯
 
 ---
 
+## 🛠️ How to Contribute 🤝
 
-
-## 🛠️ How to Contribute
-
-
-
-Contributions are welcome! Follow these steps to submit new IaaS compute platforms or open-source virtualization software:
-
-
+Contributions are welcome! Follow these simple steps to add or update IaaS compute platforms and virtualization software:
 
 1. 🍴 **Fork** the repository.
-
 2. 📝 **Add/edit** entries in `README.md` maintaining table/list structure and formatting.
-
-3. 🔗 Include project title, official website/GitHub link, exact Stars_Count, license, and brief description.
-
+3. 🔗 Include exact project title, official website/GitHub link, exact star count link, license, and brief description.
 4. 🚀 Submit a **Pull Request** with a descriptive summary of your changes.
 
-
-
 ---
-
-
 
 ## 📊 Star History
 
-
-
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Virtual-Servers-IaaS-Compute&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Virtual-Servers-IaaS-Compute&type=date&legend=top-left)
 
-
-
 ---
-
-
 
 ## 🤝 Support & Sponsorship
 
+If you find this cloud virtual servers directory helpful for your infrastructure planning, please consider supporting the project:
 
-
-If you find this cloud virtual servers repository useful, please consider supporting the project:
-
-
-
-- ⭐ **Star** this repository to increase visibility!
-
-- 🔀 **Fork** and share with fellow cloud architects, DevOps engineers, and open-source advocates.
-
-- ☕ **Sponsor & Buy Me a Coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
-
-
+- ⭐ **Star** this repository to help fellow developers and cloud architects find it!
+- 🔀 **Fork** and share with your team or social network.
+- ☕ **Buy Me a Coffee / Sponsor**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
-
-
 
 ## ⚠️ Disclaimer
 
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement. ℹ️
-
-- **Oracle Cloud offers the most generous free tier** — **4 OCPU ARM Ampere A1 + 24 GB RAM forever free** . **AWS, Azure, and GCP offer 750 hours of micro instances for 12 months** .
-
-- **Hetzner Cloud is the price-performance leader** at **€3.29/month for 2 vCPU, 4 GB RAM** — **40–70% cheaper than hyperscalers** for equivalent compute . **Scaleway and OVHcloud offer GDPR-compliant EU hosting** .
-
-- **OpenStack is the most powerful open-source IaaS** but **requires significant operational expertise** — deployment, upgrades, and troubleshooting demand dedicated engineering . **Proxmox VE is the easiest entry point** — deploy in minutes, scale to hundreds of nodes . **Apache CloudStack is simpler than OpenStack and more production-proven than Proxmox for multi-tenant clouds** .
-
-- **Open-source virtualization tools (OpenStack, Proxmox, CloudStack) are not turnkey** — they require **hardware, networking, and storage infrastructure** . **Always validate performance and reliability with a proof-of-concept** before production deployment . 🖥️
-
-
+- This directory is a **community-curated overview** — pricing, specs, and features are subject to change by respective vendors and maintainers. ℹ️
+- **Free Tiers:** Oracle Cloud offers the most generous Always Free tier (4 OCPU ARM + 24 GB RAM), while hyperscalers (AWS, Azure, GCP) limit free tiers to 12 months for entry-level micro instances. 🎁
+- **Price-Performance Leaders:** Hetzner Cloud and Scaleway provide significantly lower costs per vCPU/RAM ratio compared to US-based hyperscalers for compute-heavy workloads. 💶
+- **Self-Hosted Infrastructure:** Operating OpenStack or Kubernetes virtual machine runtimes (KubeVirt, Firecracker) requires proper network planning, hardware virtualization extensions (VT-x/AMD-V), and dedicated operational expertise. 💻
 
 ---
 
-
-
 <p align="center">
-
   <b>Made with ❤️ for cloud architects, DevOps engineers, and open-source virtualization advocates.</b>
-
 </p>
